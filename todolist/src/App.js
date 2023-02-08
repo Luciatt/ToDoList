@@ -9,10 +9,20 @@ function App() {
 
   const [task, setTask] = useState('')
   const [list, setList] = useState([
-    { task : 'Comer en restaurante de comida local' },
-    { task: 'Foto desde los miradores más importantes' },
-    { task : 'Visita un museo' },
-    { task : 'FreeTour' },
+    { task : 'Coliseo (Roma)', id:1 },
+    { task : 'Torre Eiffel (París)', id:2 },
+    { task : 'Petra (Jordania)',id:3 },
+    { task : 'Pirámides de Giza (Egipto)',id:4 },
+    { task : 'Chichen Itza (México)',id:5 },
+    { task : 'Machu Pichu (Perú)',id:6 },
+    { task : 'Estatua de la Libertad (NuevaYork)',id:7 },
+    { task : 'Cristo Redentor (Brasil)', id:8 },
+    { task : 'Taj Mahal (India)', id:9 },
+    { task : 'Templos de Angkor (Camboya)',id:10 },
+    { task : 'Barrera de Coral (Australia)',id:11 },
+    { task : 'Gran Cañón del Colorado (EEUU)',id:12 },
+    { task : 'Cataratas de Iguazú (Argentina)',id:13 },
+    { task : 'Mezquita azul (Turquía)',id:14 },
     
     
   ])
