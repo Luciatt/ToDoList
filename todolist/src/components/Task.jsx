@@ -41,7 +41,7 @@ export function Task(props) {
         return (
             <>
                 <span className={completed ? "todoTask spanSubray" : "todoTask"} onClick={() => setCompleted(!completed)}>{task.task}</span>
-                <button className="btn btnEdit" onClick={() => setEdit(true)}>Actualizar</button>
+                <button className="btn btnEdit" onClick={() => setEdit(true)}>Editar</button>
                 <button className="btn btnDelete" onClick={() => deleteItem(task.id)}>Eliminar</button>
             </>
         );

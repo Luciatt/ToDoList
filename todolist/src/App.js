@@ -8,7 +8,14 @@ import { Task } from './components/Task'
 function App() {
 
   const [task, setTask] = useState('')
-  const [list, setList] = useState([])
+  const [list, setList] = useState([
+    { task : 'Comer en restaurante de comida local' },
+    { task: 'Foto desde los miradores más importantes' },
+    { task : 'Visita un museo' },
+    { task : 'FreeTour' },
+    
+    
+  ])
 
   //guarda campo escrito//
   function handleSubmit(e) {
@@ -53,17 +60,14 @@ function App() {
   }
 
 
-
-
   return (
     <>
       <div className="containerP">
-        <h1>Bucket List New York</h1>
         <div className="containerForm">
           <Form task={task} handleSubmit={handleSubmit} handleChange={handleChange} />
         </div>
         <div className="containerTask">
-          <h2>No te puedes perder...</h2>
+          <h2></h2>
           <div className="containerInfo">
             {
               list.map(task => (

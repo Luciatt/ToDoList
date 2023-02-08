@@ -1,23 +1,25 @@
+body {
+  background-image: url("./img/map2.jpg");
+  background-size: 100%;
+}
+
 .containerP{
   width: 100%;
-  height: calc(100vh - 100px);
-  color: antiquewhite;
+  height: calc(100vh);
+  color: black;
   display: flex;
   justify-content: start;
   align-items: center;
   flex-direction: column;
-  margin-top: 100px;
+  
 }
-h1{
-  font-size: 3em;
-  font-weight: 600;
-}
+
 .containerForm{
-  width: 50%;
-  background-color: gray;
+  width: 30%;
+  background-color: rgb(209, 237, 237);
   display: flex;
   justify-content: center;
-  margin: 5px 0;
+  margin-top: 12%;
   padding: 10px;
   border-radius: 10px;
 }
@@ -39,25 +41,27 @@ input {
   border-radius: 10px;
 }
 .btn:hover{
-  background-color: aqua;
+  background-color: white;
   transform: scale(1.1);
 }
 .btnEdit{
-  background-color: aliceblue;
-  color: aqua;
+  background-color: rgb(182, 234, 234);
+  color: black;
   margin-right: 10px;
+  border-color: transparent;
 }
 .btnEdit:hover{
-  background-color: beige;
+  background-color: rgb(233, 220, 233);
   transform: scale(1.1);
 }
 .btnDelete{
-  background-color: darkslategray;
-  color: aliceblue;
+  background-color:rgb(233, 220, 233);
+  color: black;
+  border-color: transparent;
 }
 
 .btnDelete:hover{
-  background-color: rgb(108, 9, 9);
+  background-color:rgb(182, 234, 234);
   transform: scale(1.1)
 }
 .containerInfo{
@@ -65,21 +69,22 @@ input {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-top: 10%;
+  
 }
 .containerTask{
   width: 80%;
   margin:10 px;
   padding: 10px;
-  font-size: 1.3em;
+  font-size: 1.1em;
   display: flex;
   justify-content: center;
-  background-color: rgb(83, 21, 140);
   border-radius: 15px;
-  box-shadow: 5px 5px fgba(255, 255, 255, 0.3);
+  
 }
 .todoTask{
-  margin-right: 50px;
+  margin-right: 20px;
 }
 .spanSubray{
-  text-decoration: line-through;
+  text-decoration:line-through;
 }
