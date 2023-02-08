@@ -27,7 +27,7 @@ function App() {
     
   ])
 
-  //guarda campo escrito//
+  //guarda tareas//
   function handleSubmit(e) {
     e.preventDefault()
     if (task === '') {
@@ -48,10 +48,9 @@ function App() {
 
   function handleChange(e) {
     setTask(e.target.value)
-
   }
 
-  // editar campo//
+  // editar tarea//
   function update(objEdit) {
     const { id, task } = objEdit
 
@@ -77,7 +76,6 @@ function App() {
           <Form task={task} handleSubmit={handleSubmit} handleChange={handleChange} />
         </div>
         <div className="containerTask">
-          <h2></h2>
           <div className="containerInfo">
             {
               list.map(task => (

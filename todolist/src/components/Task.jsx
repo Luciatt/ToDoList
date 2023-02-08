@@ -6,7 +6,8 @@ export function Task(props) {
 
     const [edit, setEdit] = useState(false)
     const [completed, setCompleted] = useState(false)
-
+    
+// estado edicion.
     function EditOn() {
         const [valor, setValor] = useState(task.task)
 
