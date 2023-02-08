@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.containerP{
+  width: 100%;
+  height: calc(100vh - 100px);
+  color: antiquewhite;
   display: flex;
-  flex-direction: column;
+  justify-content: start;
   align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+h1{
+  font-size: 3em;
+  font-weight: 600;
+}
+.containerForm{
+  width: 50%;
+  background-color: gray;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  line-height: 30px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  background-color: white;
+  cursor: pointer;
+  padding: 0, 20 px;
+  transition: all 0.5;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.btn:hover{
+  background-color: aqua;
+  transform: scale(1.1);
+}
+.btnEdit{
+  background-color: aliceblue;
+  color: aqua;
+  margin-right: 10px;
+}
+.btnEdit:hover{
+  background-color: beige;
+  transform: scale(1.1);
+}
+.btnDelete{
+  background-color: darkslategray;
+  color: aliceblue;
+}
+
+.btnDelete:hover{
+  background-color: rgb(108, 9, 9);
+  transform: scale(1.1)
+}
+.containerInfo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.containerTask{
+  width: 80%;
+  margin:10 px;
+  padding: 10px;
+  font-size: 1.3em;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(83, 21, 140);
+  border-radius: 15px;
+  box-shadow: 5px 5px fgba(255, 255, 255, 0.3);
+}
+.todoTask{
+  margin-right: 50px;
+}
+.spanSubray{
+  text-decoration: line-through;
 }
