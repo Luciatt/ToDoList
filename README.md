@@ -20,3 +20,4 @@ Buen viaje!!
 - CSS
 - JavaScript
 - React
+<img width="1135" alt="imagen" src="https://user-images.githubusercontent.com/119872787/217528156-47d8ea86-8bc9-4ceb-a85e-c8e6cfdf1d97.png">
