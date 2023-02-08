@@ -2,6 +2,7 @@ body {
   background-image: url("./img/map2.jpg");
   background-size: 100%;
   overflow: hidden;
+  font-family: 'Handlee', cursive;
 }
 
 .containerP{
